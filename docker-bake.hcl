@@ -101,7 +101,7 @@ target "_common_docs" {
 
 target "docs-export" {
   args = {
-    DOCS_BASEURL = "https://distribution.github.io/distribution"
+    DOCS_BASEURL = "/distribution"
   }
   inherits = ["_common_docs"]
   target = "out"
